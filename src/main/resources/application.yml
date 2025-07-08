@@ -1,0 +1,16 @@
+spring:
+  application:
+    name:exam2
+  datasource:
+    url: jdbc:postgresql://localhost:6969/parking_db
+    driver-class-name: org.postgresql.Driver
+    username: admin
+    password: admin
+
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
